@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    padding:15px;
+    line-height: 36px;
+}
+
+.header_left{
+    float: left;
+}
+
+.header_right{
+    float :right;
+
+}
+
+header ul li{
+    display: inline-block;
+}
+header ul li a {
+    color: black;
+    margin-right: 1rem;
+}
+.header_right .appicon{
+    vertical-align: middle;
+}
+
+.header_right .button{
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.header_right .button:hover{
+box-shadow: 2px 3px 5px lightgray;
+font-size: 15px;
+cursor: pointer;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+.main{
+    /* vertical-align: middle; */
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 250px;
+}
+
+.arama_cubugu{
+    border: 1px solid lightgrey;
+    border-radius: 21px;
+    width: 480px;
+    height: 40px;
+    box-shadow: 2px 2px 2px lightgray;
+
+    text-align: center;
+    /* TEXT ALIGN KOMUTU DİV İÇİNDE ÇALIŞIR */
+
+    margin: 20px auto;
+    /* DIV ELEMENTİNİ EN KOLAY ORTALAMA YÖNETMİ */
+}
+
+.main #arama_input{
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 2px;
+}
+
+.main_logo{
+    margin-bottom: 20px;
+}
+
+.mic  {
+    /* margin-top: 10px; */
+    width: 17px;
+    vertical-align: middle;
+}
+
+.arama{
+    vertical-align: middle;    
+}
+
+.butonlar{
+    margin: 30px auto;
+}
+.arama_yap{
+    font-size: 18px;
+    border: none;
+    margin-right: 20px;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+
+.şanslıyım{
+    font-size: 18px;
+    border: none;
+    margin-right: 20px;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+
+.arama_yap:hover{
+box-shadow: 2px 2px 2px lightgray;
+}
+
+.şanslıyım:hover{
+    box-shadow: 2px 2px 2px lightgray;    
+}
+
+.şanslıyım:active{
+    border: 1px solid cornflowerblue;
+}
+
+.arama_yap:active{
+    border: 1px solid cornflowerblue;
+}
+
+.language a:hover{
+text-decoration: underline;
+}
+
+.footerbottomright{
+    float: right; 
+}
+
+.footerbottomleft{
+    float: left;    
+}
+
+.footerbottomright li {
+display: inline-block;
+margin: 4px;
+}
+
+.footerbottomleft li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.country{
+    padding: 15px;
+    color: rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+footer {
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer ul{
+    padding: 15px; 
+}
